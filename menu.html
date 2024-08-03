@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css" />
+
+    <!-- style -->
+    <style>
+      .mini-navbar {
+        padding: 0.2rem 1rem;
+      }
+      .mini-navbar .nav-link {
+        padding: 0.2rem 0.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- mini nav -->
+    <nav class="navbar navbar-dark mini-navbar text-light" style="background-color: #dc2626">
+      <div class="container-fluid justify-content-end">
+        <a class="nav-link" href="#"><i class="bi bi-facebook"></i></a>
+        <a class="nav-link" href="#"><i class="bi bi-whatsapp"></i></a>
+        <a class="nav-link" href="#"><i class="bi bi-instagram"></i></a>
+        <a class="nav-link" href="#"><i class="bi bi-tiktok"></i></a>
+      </div>
+    </nav>
+
+    <!-- main nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light border border-dark-subtle">
+      <div class="container">
+        <div class="row w-100 my-2 justify-content-between align-items-center">
+          <!-- Bagian kiri -->
+          <div class="col-3">
+            <a class="navbar-brand" style="font-size: 30px; font-weight: 500" href="index.html">
+              <img src="assets/Ruang asrah Logo.png" style="width: 30%" alt="" />
+            </a>
+          </div>
+          <!-- Bagian tengah -->
+          <div class="col-6 d-flex justify-content-center">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link mx-2 active text-dark" aria-current="page" href="index.html">Home</a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link mx-2 dropdown-toggle text-dark" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Menu </a>
+                <ul class="dropdown-menu dr-cl" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#scrollspyHeading1">Appetizer</a></li>
+                  <li><a class="dropdown-item" href="#scrollspyHeading2">Main Course</a></li>
+                  <li><a class="dropdown-item" href="#scrollspyHeading3">Drinks</a></li>
+                  <li><a class="dropdown-item" href="#scrollspyHeading4">Dessert</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link mx-2 dropdown-toggle text-dark" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Company </a>
+                <ul class="dropdown-menu dr-cl" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Blog</a></li>
+                  <li><a class="dropdown-item" href="#">About Us</a></li>
+                  <li><a class="dropdown-item" href="#">Contact us</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <!-- Bagian kanan -->
+          <div class="col-3 justify-content-end">
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+              <button class="btn btn-outline-dark" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- menu -->
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+      
+    <!-- Appetizer -->
+    <div class="container my-4">
+      <h1 id="scrollspyHeading1" class="text-center bg-light py-3">Appetizer</h1>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card">
+            <img src="assets/menu/menu-1.jpg" class="card-img-top" alt="Zippy Cranberry" />
+            <div class="card-body">
+              <h5 class="card-title">Zippy Cranberry</h5>
+              <p class="card-text">Zippy Cranberry adalah appetizer yang terdiri dari campuran gula, gula coklat, air, dan cranberries.</p>
+              <a href="order web 1.html" target="_blank" class="btn btn-outline-danger">Order Here</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="assets/menu/menu-2.jpg" class="card-img-top" alt="Prawn Canape" />
+            <div class="card-body">
+              <h5 class="card-title">Prawn Canape</h5>
+              <p class="card-text">Prawn Canape adalah hidangan ringan yang biasanya terdiri dari udang yang dimasak dengan saus.</p>
+              <a href="order web 1.html" target="_blank" class="btn btn-outline-danger">Order Heree</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="assets/menu/menu-3.webp" class="card-img-top" alt="Tomato Soup" />
+            <div class="card-body">
+              <h5 class="card-title">Tomato Soup</h5>
+              <p class="card-text">Hidangan ini terbuat dari tomat segar pilihan yang diolah sehingga bertekstur creamy.</p>
+              <a href="order web 1.html" target="_blank" class="btn btn-outline-danger">Order Here</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="assets/menu/menu-4.jpg" class="card-img-top" alt="Chicken Salad" />
+            <div class="card-body">
+              <h5 class="card-title">Chicken Salad</h5>
+              <p class="card-text">Hidangan yang terbuat dari daging ayam yang dipotong kecil dan dicampur dengan berbagai saus.</p>
+              <a href="order web 1.html" target="_blank" class="btn btn-outline-danger">Order Here</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Course -->
+    <div class="container my-4">
+      <h1 id="scrollspyHeading2" class="text-center bg-light py-3">Main Course</h1>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card">
+            <img src="assets/menu/menu-5.jpeg" class="card-img-top" alt="Sushi" />
+            <div class="card-body">
+              <h5 class="card-title">Sushi</h5>
+              <p class="card-text">Sushi adalah makanan khas Jepang yang terdiri dari berbagai macam olahan ikan laut.</p>
+              <a href="order web 1.html" target="_blank" class="btn btn-outline-danger">Order Here</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="assets/menu/menu-6.jpeg" class="card-img-top" alt="Tenderloin Beef Steak" />
+            <div class="card-body">
+              <h5 class="card-title">Tenderloin Beef Steak</h5>
+              <p class="card-text">Hidangan ini terbuat dari potongan daging sapi yang disajikan dengan saus dan kentang goreng.</p>
+              <a href="order web 1.html" target="_blank" class="btn btn-outline-danger">Order Here</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="assets/menu/menu-7.jpeg" class="card-img-top" alt="Mozzarella Pizza" />
+            <div class="card-body">
+              <h5 class="card-title">Mozzarella Pizza</h5>
+              <p class="card-text">Mozzarella pizza adalah jenis olahan pizza dengan keju mozzarella yang melimpah.</p>
+              <a href="order web 1.html" target="_blank" class="btn btn-outline-danger">Order Here</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="assets/menu/menu-8.jpeg" class="card-img-top" alt="Chicken Spaghetti" />
+            <div class="card-body">
+              <h5 class="card-title">Chicken Spaghetti</h5>
+              <p class="card-text">Hidangan khas Italia ini memiliki cita rasa yang lezat dengan toping ayam yang empuk.</p>
+              <a href="order web 1.html" target="_blank" class="btn btn-outline-danger">Order Here</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Drinks -->
+    <div class="container my-4">
+      <h1 id="scrollspyHeading3" class="text-center bg-light py-3">Drinks</h1>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card">
+            <img src="assets/menu/mojitoo.jpg" class="card-img-top" alt="Sushi" />
+            <div class="card-body">
+              <h5 class="card-title">Tropical Bliss Mojito</h5>
+              <p class="card-text">Nikmati kesegaran tropis dengan Mojito Segar, minuman non-alkohol yang menyegarkan. Terbuat dari perpaduan sempurna antara daun mint segar, air jeruk nipis, gula, dan air soda yang berkilau.
+
+              </p>
+              <a href="order web 1.html" target="_blank" class="btn btn-outline-danger">Order Here</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="assets/menu/milkshake.jpg" class="card-img-top" alt="Tenderloin Beef Steak" />
+            <div class="card-body">
+              <h5 class="card-title">Smoothie Bliss</h5>
+              <p class="card-text">Nikmati kesegaran dan kelembutan dalam setiap tegukan dengan Milkshake Manis kami. Terbuat dari susu segar berkualitas tinggi, dipadukan dengan es krim lembut dan gula alami.
+
+              </p>
+              <a href="order web 1.html" target="_blank" class="btn btn-outline-danger">Order Here</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="assets/menu/jus.jpg" class="card-img-top" alt="Mozzarella Pizza" />
+            <div class="card-body">
+              <h5 class="card-title">Fresh Fruit Juice</h5>
+              <p class="card-text">Minuman jus buah segar yang terbuat dari 100% buah asli tanpa tambahan pengawet atau pemanis buatan. Dengan berbagai varian rasa seperti jeruk, apel, mangga, dan stroberi.
+
+              </p>
+              <a href="order web 1.html" target="_blank" class="btn btn-outline-danger">Order Here</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="assets/menu/kopi.jpg" class="card-img-top" alt="Chicken Spaghetti" />
+            <div class="card-body">
+              <h5 class="card-title">Luxe Latté</h5>
+              <p class="card-text">Rasakan sensasi kemewahan dalam setiap tegukan dengan Kopi, minuman kopi yang diracik dari biji kopi pilihan terbaik dunia. Disangrai dengan metode tradisional namun menggunakan teknologi modern.
+
+              </p>
+              <a href="order web 1.html" target="_blank" class="btn btn-outline-danger">Order Here</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Dessert -->
+    <div class="container my-4">
+      <h1 id="scrollspyHeading4" class="text-center bg-light py-3">Dessert</h1>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card">
+            <img src="assets/menu/d1.jpg" class="card-img-top" alt="Sushi" />
+            <div class="card-body">
+              <h5 class="card-title">Waffle & Ice Cream</h5>
+              <p class="card-text">Waffle ice cream adalah hidangan penutup yang menggugah selera, menggabungkan tekstur renyah dari waffle yang baru dipanggang dengan kelembutan es krim yang dingin. Kombinasi panas dan dingin ini menciptakan kontras yang menyenangkan.
+
+              </p>
+              <a href="order web 1.html" target="_blank" class="btn btn-outline-danger">Order Here</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="assets/menu/d2.jpg" class="card-img-top" alt="Tenderloin Beef Steak" />
+            <div class="card-body">
+              <h5 class="card-title">Cheesecake Recipe</h5>
+              <p class="card-text">Cheesecake adalah dessert yang populer dan lezat, biasanya terdiri dari lapisan krim keju lembut di atas dasar kue atau biskuit yang dihancurkan. Lapisan dasar terbuat dari biskuit graham atau digestive yang dihancurkan dan dicampur dengan mentega cair.
+
+              </p>
+              <a href="order web 1.html" target="_blank" class="btn btn-outline-danger">Order Here</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="assets/menu/ds3.jpg" class="card-img-top" alt="Mozzarella Pizza" />
+            <div class="card-body">
+              <h5 class="card-title">Croissant</h5>
+              <p class="card-text">Croissant cream adalah varian kue croissant yang diisi dengan krim lezat. Croissant adalah kue pastry berbentuk bulan sabit yang terbuat dari adonan berlapis yang diolah dengan mentega memberikan tekstur renyah di luar dan lembut di dalam.
+
+              </p>
+              <a href="order web 1.html" target="_blank" class="btn btn-outline-danger">Order Here</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="assets/menu/ds1.jpg" class="card-img-top" alt="Chicken Spaghetti" />
+            <div class="card-body">
+              <h5 class="card-title">Eclair</h5>
+              <p class="card-text">Eclair adalah salah satu jenis dessert khas Prancis yang terkenal. Eclair berbentuk panjang dan biasanya terbuat dari adonan choux yang ringan dan renyah di luar namun lembut di dalam. Eclair diisi dengan krim kue atau krim patisserie yang lezat.
+
+              </p>
+              <a href="order web 1.html" target="_blank" class="btn btn-outline-danger">Order Here</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- footer -->
+    <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+        </ul>
+        <p class="text-center text-muted">© 2022 Company, Inc</p>
+      </footer>
+    </div>
+  </body>
+</html>
